@@ -51,8 +51,8 @@ body {
 }
 
 .btn:hover {
-    background-color: #15a6ef;
-    transform: scale(1.05);
+    background-color: darkkhaki;
+    transform: scale(1.0);
 }
 
 .btn-small {
@@ -129,7 +129,7 @@ body {
     border-radius: 20px;
 }
 
-.stats {
+.stars {
     text-align: center;
     background-color: #e8e8fd;
     padding: 20px 40px;
@@ -140,7 +140,7 @@ body {
     margin: 0 auto;
 }
 
-.stats-grid {
+.stars-sec {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -148,7 +148,7 @@ body {
     flex-wrap: wrap;
 }
 
-.stats-grid div h3 {
+.stars-sec div h3 {
     font-size: 32px;
     color: #4f46e5;
 }
