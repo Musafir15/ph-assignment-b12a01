@@ -211,26 +211,33 @@ body {
     justify-content: space-between;
 }
 
-.let-text {
+.come-text {
     font-size: 40px;
     margin: 80px;
 }
 
 .contact form {
-    max-width: 500px;
+    max-width: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-}
-
-.contact input,
-.contact textarea {
+    gap: 5px;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 10px;
+    font-family: monospace;
+    font-size: medium;
 }
+
+.contact input {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.contact textarea {}
 
 .footer {
     padding: 30px 20px;
